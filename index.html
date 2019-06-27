@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-   
+<body>   
     <header class="main-header">
         <div class="wrapper clearfix">
             <nav class="main-nav">
@@ -24,16 +23,22 @@
                             <a href="#">Клиенты</a>
                         </li>
                         <li>
-                            <a href="#">Магазин</a>
+                            <a href="catalog.html">Магазин</a>
                         </li>
                         <li>
                             <a href="#">Контакты</a>
                         </li>
                     </ul>
-                </div>
-                <div class="main-header-cart">
+                    <div class="main-header-cart">
+                    <svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                    <g>
+                    <circle cx="4.5" cy="13.5" r="1.5"/>
+                    <circle cx="12.5" cy="13.5" r="1.5"/>
+                    <polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"/>
+                    </g></svg>
                     <a href="#" class="cart">Корзина</a>
-                </div>
+                </div>              
+               </div>                
             </nav>
         </div>
     </header>
@@ -46,7 +51,7 @@
                    <input type="radio" class="visual-hidden" id="product-2" name="toggle">
                    <input type="radio" class="visual-hidden" id="product-3" name="toggle">
                    <div class="slider-controls">
-                       <label for="product-1" class="slider-controls-items slider-controls-items--1">первый</label>
+                       <label for="product-1" class="slider-controls-items slider-controls-items--1">Первый</label>
                        <label for="product-2" class="slider-controls-items slider-controls-items--2">Второй</label>
                        <label for="product-3" class="slider-controls-items slider-controls-items--3">Третий</label>
                    </div>
@@ -205,5 +210,25 @@
                 </div>
             </div>
         </footer>
-</body>
+        <section class="modal modal-write">
+            <h2>Напишите нам</h2>
+            <form action="https://echo.htmlacademy.ru" class="write-form" method="post">
+                <div class="modal-wrapper">
+                    <p>
+                    <label for="user-name">Ваше имя:</label>
+                    <input type="text" id="user-name" name="user-name" placeholder="Имя Фамилия" required="" autofocus="">
+                    </p>
+                    <p>
+                    <label for="user-email">Ваш e-mail:</label>
+                    <input type="email" id="user-email" name="user-email" placeholder="email@example.com" required="">
+                    </p>
+                    <p><label for="contact-text">Текст письма:</label>
+                    <textarea name="contact-text" id="contact-text" cols="200" rows="5" placeholder="В свободной форме"></textarea>
+                    </p>
+                    <button class="button" type="submit">Отправить</button>
+                    <a href="#" class="modal-close">Закрыть</a>
+                </div>
+            </form>
+        </section>
+    </body>
 </html>
