@@ -102,6 +102,7 @@ a {
 
 a:active,
 a:hover {
+ text-decoration: none;
   outline-width: 0;
 }
 
