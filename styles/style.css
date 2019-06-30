@@ -84,8 +84,9 @@ input[type="checkbox"].visual-hidden {
 
 .site-navigation a,
 .main-header-cart a {
+    font-family: "Roboto Medium", "Arial", sans-serif;
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -261,6 +262,7 @@ input[type="checkbox"].visual-hidden {
 }
 
 .service-list h3 {
+    font-family: "Roboto Bold", "Arial", sans-serif;
     padding: 0;
     margin: 19px 0 0;
     font-size: 24px;
@@ -323,7 +325,7 @@ input[type="checkbox"].visual-hidden {
 }
 
 .description h2 {
-    font-family: "Roboto Medium", sans-serif;
+    font-family: "Roboto Medium", "Arial", sans-serif;
     font-size: 45px;
     line-height: 45px;
     font-weight: 500;
@@ -331,6 +333,7 @@ input[type="checkbox"].visual-hidden {
 }
 
 .description h3 {
+    font-family: "Roboto Bold", "Arial", sans-serif;
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -374,7 +377,7 @@ input[type="checkbox"].visual-hidden {
 
 .statistic .percentage {
     letter-spacing: -2.5px;
-    font-family: "Roboto Bold", sans-serif;
+    font-family: "Roboto Bold","Arial", sans-serif;
     font-size: 48px;
     line-height: 10px;
     font-weight: 700;
@@ -463,6 +466,10 @@ input[type="checkbox"].visual-hidden {
     width: 297px;
     background: #fff;
     padding: 30px 10px 46px;
+}
+
+.address h3, .statistic b, fieldset legend, .sort-header b, .our-partners-item .description h3 {
+    font-family: "Roboto Bold","Arial", sans-serif;
 }
 
 .address h3 {
@@ -827,7 +834,7 @@ fieldset .grid {
     margin-right: 245px;
 }
 
-.sort-item a {
+.sort-item a {   
     font-size: 14px;
     text-transform: uppercase;
     color: #000;

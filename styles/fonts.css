@@ -7,6 +7,7 @@
 	}
 
 
+
 @font-face {
 			font-family: "Roboto Bold";
 			src:url("../fonts/robotobold.woff") format("woff"),
@@ -20,7 +21,7 @@
 			src:url("../fonts/robotomedium.woff") format("woff"),
 			url("../fonts/robotomedium.woff2") format("woff2");
 			font-style: normal;
-			font-weight: normal;
+			font-weight: 500;
 	}
 
 
